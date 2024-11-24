@@ -1,0 +1,97 @@
+
+.main__description {
+
+    font-size: 56px;
+    color: #000;
+    /* font-family: 'Tahom', sans-serif; */
+    text-align: center;
+
+    margin: 7px 0;
+    font-family: 'UrbanSlavic',sans-serif;
+    /* background-color: #0d0c0ce9; */
+
+    margin-bottom: 10px;
+}
+
+.sub__dexcription {
+
+    text-align: center;
+    font-size: 24px;
+
+    margin: 7px 0;
+
+}
+
+.dexcription__phone {
+    width: 100%;
+    /* background-color: red; */
+    margin: 7px 0;
+
+    text-align: center;
+
+}
+
+
+.number__phone {
+
+    font-size: 28px;
+    color: #05ff0f;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+
+
+    text-decoration: underline;
+}
+
+.description {
+
+    font-size: 18px;
+    font-family: 'Tahoma', sans-serif;
+    line-height: 1.42;
+
+    padding: 5px 10px;
+    text-align: justify;
+
+    margin-bottom: 20px;
+}
+
+
+.wrapper__gallary .item {
+
+    display: flex;
+    width: 33%;
+    /* height: max-content; */
+
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+
+}
+
+.wrapper__gallary .item .title {
+
+    font-size: 18px;
+    color: #000;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper__gallary .item .item__img {
+
+    width: 300px;
+    height: 225px;
+    /* object-fit: cover; */
+
+    border: none;
+}
+
+.wrapper__gallary .item .description {
+
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Tahoma', sans-serif;
+}

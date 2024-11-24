@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'TimesNewRoman', sans-serif; 
+	src: url("../fonts/TimesNewRoman/timesnewromanps_italicmt.ttf"); 
+}
+
+@font-face {
+	font-family: 'Nunito'; 
+	src: url("../fonts/Nunito/Nunito.ttf"); 
+}
+
+@font-face {
+	font-family: 'UrbanSlavic'; 
+	src: url("../fonts/Urban_Slavic/UrbanSlavic.otf"); 
+}
