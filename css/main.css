@@ -17,12 +17,6 @@
     height: max-content;
 }
 
-.burger__menu, .icon__burger__menu {
-
-    display: none;
- 
-}
-
 .main__section {
     
     position: relative;
