@@ -103,4 +103,45 @@
 
         background-color: #fff;
     }
+
+    .section-2 .container {
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .section-2 .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .section-2 .wrapper__img {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .main__title__korobki__dly__pereezda {
+
+        font-size: 22px;
+
+        position: absolute;
+        bottom: 190px;
+        color: #fff;
+    }
+
+    .wrapper__text {
+
+        text-align: justify;
+    }
+
+    .wrapper__text span{
+
+        font-size: 15px;
+    }
 }
