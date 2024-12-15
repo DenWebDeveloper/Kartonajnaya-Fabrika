@@ -133,7 +133,7 @@
 .header__list .item a {
 
     height: 100%;
-    padding: 10px 6px;
+    padding: 10px 16px;
 
     display: flex;
     align-items: center;
@@ -185,6 +185,20 @@
     color: #181818;
     font-family: 'Tahoma', sans-serif;
 
+}
+
+.main__description {
+
+    font-size: 36px;
+    color: #000;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+
+    margin: 7px 0;
+    /* font-family: 'UrbanSlavic',sans-serif; */
+ 
+
+    margin-bottom: 10px;
 }
 
 /*  S E C T I O N - 2  */
@@ -1017,9 +1031,8 @@
     margin-bottom: 25px;
 }
 
-.main__description {
+/* .main__description {
 
-    /* font-family: "Tahoma", sans-serif; */
 
     font-family: 'UrbanSlavic',sans-serif;
     font-weight: bold;
@@ -1029,4 +1042,4 @@
     margin-bottom: 2px;
 
     color: #fff;
-}
+} */

@@ -1,6 +1,13 @@
 
 @media (max-width: 390px){
 
+    body.disableScroll {
+
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
     .logo,.header__list {
 
         display: none;
