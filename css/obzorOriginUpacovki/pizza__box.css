@@ -1,0 +1,11 @@
+.wrapper__description__products {
+
+    width: 50%;
+
+    /* background-color: red; */
+}
+
+.wrapper__description__products .description__products {
+
+    width: 100%;
+}

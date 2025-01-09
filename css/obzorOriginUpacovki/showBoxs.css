@@ -1,0 +1,27 @@
+.sec-2 .item .item__img__products-2 {
+
+    width: max-content;
+    margin-right: 20px;
+
+    /* background-color: red; */
+}
+
+.sec-2 .item .item__img__products-2 .img {
+
+    width: 300px;
+    height: 250px;
+
+    object-fit: cover;
+}
+
+.sec-2 .item .item__img__products-2 .img:nth-child(1) {
+
+    margin-right: 10px;
+
+}
+
+
+.description__products {
+
+    width: 20%;
+}

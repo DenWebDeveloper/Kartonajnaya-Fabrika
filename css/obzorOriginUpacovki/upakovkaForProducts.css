@@ -1,0 +1,164 @@
+
+
+
+
+.wrapper__sub-menu .title {
+
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.sub__title {
+
+    margin-bottom: 35px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.container {
+
+    max-width: 1250px;
+
+    margin: 0 auto;
+    background-color: transparent;
+   
+    padding: 23px 15px 10px 15px;
+
+}
+
+.spisok {
+
+    background-color: green;
+}
+
+
+
+
+.spisok .spisok__item.active {
+
+    background: #1c1d1d;
+    /* background: #2a9f9f; */
+
+
+}
+
+.spisok .spisok__item.active .spisok__link.active {
+
+    color: #fff;
+
+}
+
+.header__list .item.active {
+
+    position: relative;
+}
+
+
+
+.header__list .spisok {
+
+    position: absolute;
+
+
+    top: 36px;
+    left: 0px;
+    width: 268px;
+
+    overflow: hidden;
+    /* padding: 0px 10px 10px 5px; */
+   
+    border-radius: 4px;
+    height: 0px;
+    background-color: rgb(118, 118, 118);
+
+    transition: all .4s;
+
+}
+
+.header__list .item.active:hover .spisok {
+    height: 370px;
+    /* padding: 5px 10px; */
+    transition: all .4s;
+}
+
+.header__list .spisok .spisok__item {
+
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.header__list .spisok .spisok__item:hover .spisok__link {
+
+    color: #fff;
+
+}
+
+.header__list .spisok .spisok__link {
+
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.header__list .spisok .spisok__link.active {
+
+    color: #fff;
+}
+
+.sec-2 .item {
+
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+    margin-bottom: 30px;
+
+    /* box-shadow: -1px 2px 2px 5px #ccc;*/
+    border: 1px solid rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.sec-2 .item .item__img__products {
+
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+}
+
+
+.sec-2 .item .item__img__products .img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.description__products {
+
+    width: 50%;
+    line-height: 1.42;
+    font-style: italic;
+    font-weight: 600;
+    color:#7d7777;
+
+    margin-top: 15px;
+
+}
+
+.description__products span {
+
+    font-weight: bold;
+    font-size: 20px;
+}

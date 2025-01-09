@@ -22,8 +22,6 @@ btnActiveWrapperTextDescription.addEventListener('click', () => {
 });
 
 
-
-
 bottomNavigation.forEach(element => {
 
     element.addEventListener('click', (event) =>{
@@ -47,4 +45,7 @@ bottomNavigation.forEach(element => {
     });
 });
 
-renderGallaryItem();
+// renderGallaryItem();
+
+
+

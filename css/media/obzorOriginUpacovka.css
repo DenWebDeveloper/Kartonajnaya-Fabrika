@@ -17,18 +17,132 @@
 
     .container {
 
-        padding: 0 8px;
-    }
-    .wrapper__gallary {
+        padding: 0;
+        margin: 0;
 
-        padding: 20px 0px 10px;
+        background-color: transparent;
+    }
+
+    .container__description {
+
+        padding: 5px 12px;
+    }
+
+    .gallary__container {
+
+        padding: 0 8px;
+
+
+    }
+
+    .gallary__section {
+
+        background-color: rgb(0, 0, 0);
+
+        padding: 5px;
+
+    }
+    .gallary__section .wrapper__gallary {
+
+        padding: 5px 0px 0px;
+        margin: 0px;
+        height: max-content;
  
     }
 
+
     .wrapper__gallary .flex__item {
+
         width: 100%;
   
         margin-right: 0px;
+        background-color: aliceblue;
+        border-radius: 12px;
+   
     }
+
+    .wrapper__gallary .flex__item .wrapper__img .img {
+
+        width: 100%;
+       
+        object-fit: contain;
+    }
+
+
+
+    /* .mobile__menu__originalUpakovki.active {
+
+        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        background-color: gray;
+
+        padding: 30px 8px 20px;
+
+        transform: translateY(0%);
+
+        border-radius: 8px;
+
+        z-index: 2;
+
+    }
+
+    .mobile__menu__originalUpakovki .itemm{
+        padding: 5px 10px 5px 15px;
+
+    }
+
+    .link__item__originalUpakovki {
+
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.4;
+
+    }
+
+    .mobile__menu__originalUpakovki .btn__close {
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+        font-size: 40px;
+        display: none;
+    }
+
+    .mobile__menu__originalUpakovki .arrow__down {
+
+        display: none;
+
+    }
+
+    .mobile__menu__originalUpakovki .arrow__down.active {
+
+        position: absolute;
+        transform: translateX(-50%);
+        right: 0px;
+    
+        bottom: -35px;
+        font-size: 40px;
+        z-index: 10;
+        color: #333;
+        display: block;
+    }
+
+    .mobile__menu__originalUpakovki.active .arrow__down.active, .mobile__menu__originalUpakovki .btn__close.active {
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -45px;
+        color: #ffffff;
+        font-size: 40px;
+
+        display: block;
+    } */
+
 
 }
