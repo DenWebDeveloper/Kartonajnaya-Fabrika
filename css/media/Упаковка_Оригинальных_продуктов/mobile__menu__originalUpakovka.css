@@ -8,16 +8,22 @@
         left: 0;
         width: 100%;
         height: max-content;
+
+        background-image: url('../../../images/Main__bg.jpg');
+  
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
    
-        /* background-color: #242529; */
         padding: 30px 8px 20px;
 
         transform: translateY(0%);
-        transition: all .9s;
-
+        transition: transform .9s;
+        /* background-color: red; */
         border-radius: 8px;
-
         z-index: 2;
+
 
     }
 

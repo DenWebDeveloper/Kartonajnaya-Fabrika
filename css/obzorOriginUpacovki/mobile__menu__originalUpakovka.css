@@ -29,15 +29,19 @@
     width: 100%;
     height: max-content;
 
-    background-image: url(../../../images/Main__bg.jpg);
+    padding: 30px 8px 20px;
+
+    background-image: url('../../../images/Main__bg.jpg');
+  
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
    
-    /* background-color: #242529; */
     transform: translateY(-100%);
 
-    transition: all .9s;
+    transition: transform .9s;
+    z-index: 2;
+
 
 }
 
@@ -53,6 +57,7 @@
     background-color: #807f7f98;
     backdrop-filter: blur(3px);
     z-index:-1;
+    /* display: none; */
 }
 
 
