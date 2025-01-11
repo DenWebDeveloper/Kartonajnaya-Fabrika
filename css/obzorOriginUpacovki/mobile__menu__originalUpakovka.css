@@ -9,25 +9,15 @@
     background-color: #000000;
     transition: all .9s;
 
-
-   
-
-    /* display: none; */
-
     opacity: 0;
 }
 
 
 .main__section .blur.active {
 
-    /* display: block; */
-
     opacity: 1;
-
     z-index: 2;
-
     transition: all .9s;
-
 
 }
 .mobile__menu__originalUpakovki {
@@ -38,16 +28,39 @@
     left: 0;
     width: 100%;
     height: max-content;
-    background-color: gray;
+
+    background-image: url(../../../images/Main__bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* background-color: #242529; */
     transform: translateY(-100%);
 
     transition: all .9s;
 
-
 }
+
+.mobile__menu__originalUpakovki::before {
+
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left:0;
+    background-color: #807f7f98;
+    backdrop-filter: blur(3px);
+    z-index:-1;
+}
+
+
 
 .arrow__down, .btn__close {
 
     width: 30px;
     height: 30px;
 }
+
+

@@ -8,8 +8,8 @@
         left: 0;
         width: 100%;
         height: max-content;
-        background-color: gray;
-
+   
+        background-color: #242529;
         padding: 30px 8px 20px;
 
         transform: translateY(0%);
@@ -28,12 +28,18 @@
 
     .link__item__originalUpakovki {
 
-        color: #fff;
+        color: #000000;
+
         font-size: 18px;
         line-height: 1.4;
 
     }
 
+    .link__item__originalUpakovki.active{
+
+        color: #ffffff;
+    }
+    
     .mobile__menu__originalUpakovki .btn__close {
 
         position: absolute;
