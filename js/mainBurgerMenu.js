@@ -5,8 +5,8 @@ const mobileBurgerMenu = document.querySelector('.icon__burger__menu');
 const burgerMenu = document.querySelector('.burger__menu');
 const closemobileBurgerMenu = document.querySelector('.close');
 const wrapperContacts = document.querySelector('.wrapper__contacts');
-const mainTitle = document.querySelector('.wrapper__sub-menu .title');
-// const indexMainTitle = document.querySelector('.section-2 .main__title');
+// const mainTitle = document.querySelector('.wrapper__sub-menu .title');
+const indexMainTitle = document.querySelector('.main__description');
 
 
 
@@ -19,11 +19,8 @@ mobileBurgerMenu.addEventListener('click',()=>{
     wrapperContacts.style.opacity = 0;
     wrapperContacts.style.transition = '0.2s';
 
-    mainTitle.style.opacity = 0;
-    mainTitle.style.transition = '0.2s';
-
-    // indexMainTitle.style.opacity = 0;
-    // indexMainTitle.style.transition = '0.2s';
+    indexMainTitle.style.opacity = 0;
+    indexMainTitle.style.transition = '0.2s';
 
     body.classList.add('disableScroll');
 
@@ -43,7 +40,7 @@ closemobileBurgerMenu.addEventListener('click', ()=>{
     inexMainTitle.style.transitionDelay = '1s';
 
     wrapperContacts.style.transition = '3s';
-    mainTitle.style.transition = '3s';
+    indexMainTitle.style.transition = '3s';
 
 
 });
