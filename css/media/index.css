@@ -50,7 +50,7 @@
 
 }
 
-@media (max-width: 390px){
+@media (max-width: 480px){
 
     .container {
 
@@ -265,7 +265,7 @@
 
 }
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
 
     .wrapper__text-description.active {
 
@@ -273,4 +273,4 @@
         transition: 1s;
       
     }
-}
+} */
