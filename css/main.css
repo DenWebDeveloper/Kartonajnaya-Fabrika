@@ -601,6 +601,8 @@
 .form__btn {
 
     display: block;
+
+    padding: 5px 10px;
 }
 
 .form__aria {

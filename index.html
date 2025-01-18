@@ -393,10 +393,10 @@
 
                     <p class="title__form">Отправить заявку на расчет стоимости упаковки</p>
 
-                    <form  class="form">
+                    <form  class="form" action="sandemail.php" method="post">
 
                         <label for="e-mail">Адрес электронной почты *</label>
-                        <input type="text" class="form__input" id="'e-mail">
+                        <input type="email" class="form__input" id="'e-mail" name="email">
 
                         <label for="e-mail">Имя *</label>
                         <input type="text" class="form__input">
@@ -415,11 +415,11 @@
 
                         <a class="form__btn">Сообщение *</a>
 
-                        <textarea class="form__aria" shape="" coords="" href="" alt=""> </textarea>
+                        <textarea class="form__aria" shape="" coords="" href="" alt="" name="'message"> </textarea>
 
                         <p class="form__discription">Поля, помеченные символом *, обязательны для заполнения.</p>
 
-                        <button class="form__btn">Отправить</button>
+                        <input class="form__btn" type="submit" value="Отправить">
 
                     </form>
                 </div>
